@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins-official",
+  "name": "ghrodrigues-plugins",
   "description": "Directory of popular Claude Code extensions including development tools, productivity plugins, and MCP integrations",
   "owner": {
     "name": "Anthropic",
@@ -1446,7 +1446,8 @@
       "name": "discord",
       "description": "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
       "category": "productivity",
-      "source": "./external_plugins/discord"
+      "source": "./external_plugins/discord",
+      "version": "0.0.4"
     },
     {
       "name": "dominodatalab",
@@ -1548,7 +1549,8 @@
       "name": "fakechat",
       "description": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service.",
       "category": "development",
-      "source": "./external_plugins/fakechat"
+      "source": "./external_plugins/fakechat",
+      "version": "0.0.1"
     },
     {
       "name": "fastly-agent-toolkit",
@@ -1935,7 +1937,8 @@
       "name": "imessage",
       "description": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing, allowlists, and policy via /imessage:access.",
       "category": "productivity",
-      "source": "./external_plugins/imessage"
+      "source": "./external_plugins/imessage",
+      "version": "0.2.0"
     },
     {
       "name": "incident-io",
@@ -3919,7 +3922,8 @@
       "name": "telegram",
       "description": "Telegram messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
       "category": "productivity",
-      "source": "./external_plugins/telegram"
+      "source": "./external_plugins/telegram",
+      "version": "0.0.7"
     },
     {
       "name": "terraform",
